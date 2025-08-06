@@ -2,7 +2,7 @@
     "Alarme do Museu" Treino Livre - MOJ
     A program that calculates the total time an alarm is active in a museum,
     based on the detection times of alarms and a specified alarm time.
- */
+*/
 #include <stdio.h>
 int main ()
 {
