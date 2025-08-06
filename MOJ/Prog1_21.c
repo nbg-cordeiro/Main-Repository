@@ -1,6 +1,8 @@
-// "21" Treino Livre - MOJ
-// A program that scans 4 lines of 13 cards and calculates the maximum sum a player can get
-// in a game of Black Jack, without exceeding 21 points.
+/*
+    "21" Treino Livre - MOJ
+    A program that scans 4 lines of 13 cards and calculates the maximum sum a player can get
+    in a game of Black Jack, without exceeding 21 points.
+*/
 #include <stdio.h>
 int main ()
 {
@@ -25,7 +27,7 @@ int main ()
             values[j][i]=value;
         }
     }
-    for(int i=0; i<11; i++)
+    for(short i=0; i<11; i++)
     {
         // Eleven iterations is what it take to get the maximum sum (21) in the worst case
         if((sum+values[i][0]) <= 21)
